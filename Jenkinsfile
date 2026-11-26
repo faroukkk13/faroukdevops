@@ -9,13 +9,13 @@ pipeline {
 
     stage('Test') {
       steps {
-        sh 'echo "Lancement des tests..."'
+        sh 'exit 1'
       }
     }
 
     stage('Deploy') {
       steps {
-        sh 'echo "Déploiement terminé"'
+        sh 'echo "DÃ©ploiement terminÃ©"'
       }
     }
 
